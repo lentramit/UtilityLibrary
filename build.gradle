@@ -8,12 +8,13 @@ plugins {
 publishing {
     publications {
         mavenJava(MavenPublication) {
-            groupId = 'foo'
-            artifactId = 'bar'
-            version = '0.1'
+            groupId = 'com.github.lentramit'
+            artifactId = 'UtilityLibrary'
+            version = '1.0.3'
         }
     }
 }
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
